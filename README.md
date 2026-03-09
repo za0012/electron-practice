@@ -1,34 +1,11 @@
-# electron-practice
+# 들어가기 전
 
-An Electron application with React and TypeScript
+일렉트론 + vite 프로젝트를 생성했습니다.
+아는 분과 대화하다 보니 넥스트론은 사용해봤는데, 일렉트론은 사용해보지 않았기 때문입니다.
+또한 요즘 다양한 프레임워크들을 공부하는 중이라 흥미가 생겨 시작하게 되었습니다.
 
-## Recommended IDE Setup
+## 웹팩, 번들러에 대하여
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-
-## Project Setup
-
-### Install
-
-```bash
-$ pnpm install
-```
-
-### Development
-
-```bash
-$ pnpm dev
-```
-
-### Build
-
-```bash
-# For windows
-$ pnpm build:win
-
-# For macOS
-$ pnpm build:mac
-
-# For Linux
-$ pnpm build:linux
-```
+웹팩의 종류는 많습니다.
+vite, turbopack, rollup, parcel...
+vite는 ESBuild를 사용하여 빠른 의존성 사전 번들링을 수행하고 Rollup을 사용하여 프로덕션 빌드를 처리하므로 개발자는 거의 즉각적인 서버 시작이 가능합니다. 개발 속도가 가장 중요한 소규모에서 중규모 프로젝트에 이상적입니다.
